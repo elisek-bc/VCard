@@ -1,0 +1,120 @@
+body, html {
+    border: 10px solid rgb(111,119,98);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+    h1 {
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 52px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 16px;
+}
+
+h2 {
+    font-family: "Special Elite", cursive;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 0px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 1.25em;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+td {
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    line-height: 30px;
+
+}
+
+a {
+    text-decoration:none;
+    color: black;
+
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.split {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+}
+.split.left {
+left:0;
+background: url(/home/elise/Desktop/becode_projects/VCard/images/ElisePhotoCV.jpg) center center no-repeat;
+background-size: cover;
+background-position:70% bottom;
+}
+
+.split.right {
+    
+    width:70%;
+    right:0;
+    background-size: cover;
+    vertical-align: center;
+}
+
+.upper {
+    margin-top: 10%;
+    margin-left: 11%;
+    margin-right: 10%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.row {
+    float: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    height: 500px;
+    margin: 0 -15px; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column {
+    float:left;
+    padding: 30px;
+    width: 50%;
+    height: 500px;
+  }
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
