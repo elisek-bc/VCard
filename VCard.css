@@ -118,3 +118,24 @@ background-position:70% bottom;
       margin-bottom: 20px;
     }
   }
+
+  .social {
+      background-color:rgb(111,119,98);
+      color:white;
+      padding: 20px;
+  }
+
+ h4 {
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 1px;
+ }
+
+ .social-icons {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline;
+ }
