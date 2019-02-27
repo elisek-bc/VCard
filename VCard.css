@@ -113,6 +113,10 @@ background-position:70% bottom;
     height: 300px;
   }
 
+
+/* Changes necessary for better code. Problems with position and size in code. Design looks fine */
+
+
 .footer {
     height: 100px;
     width: 785px;
