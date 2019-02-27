@@ -67,7 +67,7 @@ a {
 }
 .split.left {
 left:0;
-background: url(/home/elise/Desktop/becode_projects/VCard/images/ElisePhotoCV.jpg) center center no-repeat;
+background: url(images/ElisePhotoCV.jpg) center center no-repeat;
 background-size: cover;
 background-position:70% bottom;
 }
