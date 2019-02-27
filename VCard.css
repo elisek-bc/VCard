@@ -55,6 +55,7 @@ a {
     position: relative;
     width: 100%;
     height: 100%;
+    padding-bottom: 100px;
 
 }
 
@@ -93,7 +94,7 @@ background-position:70% bottom;
     float: left;
     padding-left: 10%;
     padding-right: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     height: 300px;
     margin: 0 -15px;
     width: 785px; 
@@ -112,20 +113,16 @@ background-position:70% bottom;
     height: 300px;
   }
 
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
 .footer {
-    height: 120px;
+    height: 100px;
     width: 785px;
+    
 }
 .footer.row {
     float: left;
-    height: 120px;
+    height: 100px;
+    padding:0;
+    bottom: 0;
 }
 
 .footer.row:after {
@@ -137,7 +134,7 @@ background-position:70% bottom;
 .footer.column {
     float:left;
     width: 50%;
-    height: 120px;
+    height: 100px;
   }
 
 .social {
@@ -145,6 +142,8 @@ background-position:70% bottom;
       color:white;
       position: fixed;
       width: 250px;
+      height: 100px;
+      bottom: 0;
   }
 
  h4 {
@@ -158,8 +157,16 @@ background-position:70% bottom;
  }
 
  .social-icons {
-    margin: 0;
-    padding: 0;
+    margin-left: 15px;
+    padding:0;
     list-style: none;
-    display: inline;
+ }
+
+ .button {
+     display:inline;
+     padding: 5px;
+ }
+
+ .button:hover {
+    filter: invert(100%);
  }
