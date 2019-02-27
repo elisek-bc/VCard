@@ -8,7 +8,7 @@ body, html {
     overflow: hidden;
 }
 
-    h1 {
+h1 {
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-size: 52px;
@@ -60,7 +60,7 @@ a {
 
 .split {
     position: absolute;
-    width: 30%;
+    width: 40%;
     height: 100%;
     overflow: hidden;
 }
@@ -73,7 +73,7 @@ background-position:70% bottom;
 
 .split.right {
     
-    width:70%;
+    width:60%;
     right:0;
     background-size: cover;
     vertical-align: center;
@@ -92,10 +92,11 @@ background-position:70% bottom;
 .row {
     float: left;
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 5%;
     padding-bottom: 10%;
-    height: 500px;
-    margin: 0 -15px; 
+    height: 300px;
+    margin: 0 -15px;
+    width: 785px; 
 }
 
 .row:after {
@@ -108,7 +109,7 @@ background-position:70% bottom;
     float:left;
     padding: 30px;
     width: 50%;
-    height: 500px;
+    height: 300px;
   }
 
 @media screen and (max-width: 600px) {
@@ -118,11 +119,32 @@ background-position:70% bottom;
       margin-bottom: 20px;
     }
   }
+.footer {
+    height: 120px;
+    width: 785px;
+}
+.footer.row {
+    float: left;
+    height: 120px;
+}
 
-  .social {
+.footer.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.footer.column {
+    float:left;
+    width: 50%;
+    height: 120px;
+  }
+
+.social {
       background-color:rgb(111,119,98);
       color:white;
-      padding: 20px;
+      position: fixed;
+      width: 250px;
   }
 
  h4 {
@@ -131,6 +153,8 @@ background-position:70% bottom;
     font-size: 16px;
     font-weight: 900;
     letter-spacing: 1px;
+    padding: 7%;
+    margin: 0;
  }
 
  .social-icons {
